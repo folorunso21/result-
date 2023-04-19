@@ -27,7 +27,7 @@ font-family: 'Poppins', sans-serif;
 }
 /* blue design */
 #blue {
-    width: 20vw;
+    width: 30vw;
     border-radius: 20px;
     height: 50vh;
     display: flex;
@@ -64,7 +64,7 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 20vw;
+    width: 30vw;
     align-items: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -112,6 +112,27 @@ button {
 
 /* media query */
 
-@media screen and  {
+@media screen and (max-width:900px)  {
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #white  {
+        width: 90vw;
+        border-radius: 20px;
+    }
+
+    #blue {
+        width: 90vw;
+    }
+
+    #text {
+        width: 100vw;
+    }
+
+    button {
+        width: 50vw;
+    }
     
 }
