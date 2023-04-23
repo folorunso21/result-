@@ -16,6 +16,12 @@ body {
 font-family: 'Poppins', sans-serif;
 }
 
+#bod {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
 #main{
     background-color: aqua;
     width: 100vw;
@@ -118,13 +124,22 @@ button {
         flex-direction: column;
     }
 
+    #bod {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
     #white  {
         width: 90vw;
-        border-radius: 20px;
+        border-radius: 0px;
     }
 
     #blue {
         width: 90vw;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
     }
 
     #text {
