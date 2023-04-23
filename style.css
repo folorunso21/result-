@@ -126,6 +126,7 @@ button {
 
     #bod {
         margin: auto;
+        height: 650px;
         display: flex;
         flex-direction: column;
     }
